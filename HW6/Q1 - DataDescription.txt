@@ -1,0 +1,12 @@
+File 'extra-data.json' contains box office information for a number of movies, as JSON objects.
+
+It contains the following fields for a movie:
+    ==> box_office_currencyLabel - currency in which data is given
+    ==> titleLabel - name of the movie
+    ==> IMDb_ID - id of the movie in IMDB dataset
+    ==> cost - cost of making the movie (in the currency listed in box_office_currencyLabel)
+    ==> distributorLabel - name of the distributor
+    ==> box_office - movie's gross earnings (in the currency listed in box_office_currencyLabel)
+    ==> MPAA_film_ratingLabel - film rating (based on Motion Picture Association)
+
+Some of the above field(s) may be missing for some movies.
